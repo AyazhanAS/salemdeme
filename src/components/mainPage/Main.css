@@ -1,0 +1,316 @@
+.main__wrapper{
+    margin-bottom: 200px;
+}
+.main__container{
+    max-width: 1326px;
+    width: 100%;
+    margin: 0 auto;  
+}
+.main__content{
+    position: relative;
+}
+
+/**первый блок ---------- **/
+
+.main__firstBlock{
+    display: flex;
+    position: absolute;
+    top: 79px;
+}
+.main__firstBlock-leftPart{
+    margin-top: 49px;
+}
+
+.main__firstBlock div:first-child{
+    margin-right: 21px;
+}
+
+.main__firstBlock-title{
+    font-family: Nunito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: 0em;
+
+}
+.main__firstBlock-subTitle{
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 159px;
+    margin-top: 16px;
+}
+.main__firstBlock-buttons{
+    display: flex;
+    margin-top: 49px;
+}
+.main__firstBlock-buttons div{
+    width: 225px;
+    height: 59px;
+    border: 1px solid #1F78E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+.main__firstBlock-buttons div:first-child{
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F78E1;
+
+}
+
+.main__firstBlock-buttons div:last-child{
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: #1F78E1;
+    color: white;
+
+}
+
+.main__firstBlock-rightBlock{
+    width: 100%;
+    max-width: 535px;
+}
+
+/*  Second block  -------------*/
+.main__secondBlock{
+    position:absolute;
+    top: 708px;
+}
+
+.main__secondBlock-content{
+    margin-top: 50px;
+    display: flex;
+}
+
+
+
+
+.main__title p{
+    text-align: center;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #111111;
+}
+.main__secondBlock-subBlock{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    
+}
+
+.main__secondBlock-leftPart{
+    max-width: 773px;
+    width: 100%;
+    margin-right: 30px;
+}
+
+
+.main__secondBlock-description{
+    margin-left: 38px;
+}
+
+
+.main__secondBlock-order{
+    font-family: Nunito;
+    font-size: 91px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 118px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F78E1;
+}
+
+.main__secondBlock-subTitle{
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #111111;
+    margin-bottom: 16px;
+    
+}
+
+.main__secondBlock-text{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #222222;
+}
+
+.main__secondBlock-rightPart{
+    min-height: 566px;
+    max-width: 535px;  
+}
+
+.main__secondBlock-rightPart img{
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
+}
+
+/*  Thrid block  -------------*/
+.main__thridBlock{
+    position: absolute;
+    top: 1573px
+}
+.main__thridBlock-content{
+    display: flex;
+    margin-top: 50px;
+}
+
+.main__thridBlock-cards{
+    width: 100%;
+    max-width: 422px;
+    padding: 39px 42px 0 42px;
+    height: 263px;
+    border: 1px solid #DADADA;
+    margin-right: 30px;
+    box-sizing: content-box;
+}
+
+.main__thridBlock-content div:last-child{
+    margin-right: 0;
+}
+
+.main__thridBlock-icon{
+    height: 66.00003051757812px;
+    width: 49.50065994262695px;
+
+}
+.main__thridBlock-subTitle{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%; 
+    color: #111111;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+.main__thridBlock-text{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #222222;
+}
+
+/*  Fourth block  -------------*/
+.main__fourthBlock{
+    position: absolute;
+    top: 2135px;
+}
+.main__fourthBlock-content{
+    margin-top: 50px;
+    display: flex;
+}
+.main__fourthBlock-content-blue{
+    background-color: #478DE0;
+}
+.main__fourthBlock-subBlock-content{
+    padding-left: 62px;
+}
+.main__fourthBlock-rightPart{
+    background: #1BCE78;
+    margin-left: 30px;
+}
+.main__fourthBlock-order{
+    margin-left: 62px;
+}
+
+.main__fourthBlock-title{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.main__fourthBlock-subBlock{
+    display: flex;
+}
+.main__fourthBlock-order{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.main__fourthBlock-subTitle{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+    padding-left: 24px;
+}
+.main__fourthBlock-text{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    padding: 0 58px 62px 24px;
+}
+
+
+.main__fourthBlock-button{
+    padding: 17px 51px;
+    max-width: 543px;
+    width: 100%;
+    height: 69px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto 53px;
+}
+
+.main__fourthBlock-button a{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #000000;
+}

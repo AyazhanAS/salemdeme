@@ -1,0 +1,37 @@
+/** первоначальные настройки------------------------------------------------------**/
+
+.header__container{
+    max-width: 1326px;
+    width: 100%;
+    margin: 0 auto;  
+}
+
+/**content -------------------------------------**/
+
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    min-height: 121px;
+    align-items: center;
+}
+
+.header__logo{
+   display: flex;
+   align-items: center;
+}
+
+.header__personal-area{
+    display: flex;
+}
+
+.header__personal-area-sign-in{
+    margin-right: 48px;
+}
+
+.header__personal-area-sign-in, .header__personal-area-sign-up{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+}
