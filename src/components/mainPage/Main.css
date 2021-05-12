@@ -67,6 +67,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #1F78E1;
+    cursor: pointer;
 
 }
 
@@ -80,7 +81,13 @@
     text-align: left;
     background-color: #1F78E1;
     color: white;
+    cursor: pointer;
 
+}
+.main__firstBlock-buttons div:hover{
+    background-color: #034FA9;
+    color: white;
+    cursor: pointer;
 }
 
 .main__firstBlock-rightBlock{
@@ -234,13 +241,13 @@
     display: flex;
 }
 .main__fourthBlock-content-blue{
-    background-color: #478DE0;
+    background: linear-gradient(180deg, #0067E0 0%, #478DE0 100%);
 }
 .main__fourthBlock-subBlock-content{
     padding-left: 62px;
 }
 .main__fourthBlock-rightPart{
-    background: #1BCE78;
+    background: linear-gradient(180deg, #1BCE78 0%, #1FCE85 100%);
     margin-left: 30px;
 }
 .main__fourthBlock-order{
@@ -304,6 +311,12 @@
     justify-content: center;
     align-items: center;
     margin: 0px auto 53px;
+    cursor: pointer;
+}
+.main__fourthBlock-button:hover{
+    background: #F9F9F9;
+    cursor: pointer;
+
 }
 
 .main__fourthBlock-button a{
